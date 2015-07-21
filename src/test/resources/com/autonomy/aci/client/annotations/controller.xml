@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<autnresponse xmlns:autn='http://schemas.autonomy.com/aci/'>
+    <action>GETSTATUSOVERVIEW</action>
+    <response>SUCCESS</response>
+    <responsedata>
+        <controller UUID="123-456-789" port="41200">
+            <services>
+                <service port="9000" name="content1" labels="twitterdata" runstate="running">
+                    <monitors>
+                        <monitor name="aci ping" laststatus="success" lastresulttime="1234587890" interval="30">
+                            <error id="abcde123" count="10" start="1234567890" end="1234569890">Failed (timeout)</error>
+                            <warning id="abcde125" count="1" start="1234577890" end="1234578190">Slow response</warning>
+                            <error id="abcde124" count="2" start="1234587890" end="n/a">Failed (timeout)</error>
+                            <error id="abcde124" count="2" start="1234587890">It all went wrong</error>
+                        </monitor>
+                    </monitors>
+                </service>
+            </services>
+            <system hostname="contentbox1" ip="10.1.0.11" os="windows server 2003" >
+                <monitors>
+                    <monitor name="diskspace" laststatus="success" lastresulttime="1234587890" interval="600">
+                        <warning id="def1234" count="1" start="1234587890" end="n/a">Low disk space (25%)</warning>
+                    </monitor>
+                </monitors>
+            </system>
+        </controller>
+    </responsedata>
+</autnresponse>

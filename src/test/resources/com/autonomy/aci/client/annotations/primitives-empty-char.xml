@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<autnresponse xmlns:autn='http://schemas.autonomy.com/aci/'>
+    <action>QUERY</action>
+    <response>SUCCESS</response>
+    <responsedata>
+        <autn:numhits>6</autn:numhits>
+        <autn:hit>
+            <autn:reference>ref</autn:reference>
+            <autn:id>325428</autn:id>
+            <autn:section>0</autn:section>
+            <autn:weight>96.00</autn:weight>
+            <autn:database>Twitter</autn:database>
+            <autn:title>Title</autn:title>
+            <autn:content>
+                <DOCUMENT>
+                    <CHAR/>
+                    <CHARACTER/>
+                </DOCUMENT>
+            </autn:content>
+        </autn:hit>
+    </responsedata>
+</autnresponse>

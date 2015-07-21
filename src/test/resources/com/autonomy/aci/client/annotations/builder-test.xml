@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<autnresponse xmlns:autn='http://schemas.autonomy.com/aci/'>
+    <action>BUILDERTEST</action>
+    <response>SUCCESS</response>
+    <responsedata>
+        <controller>
+            <name>windows</name>
+            <schedule>
+                <name>backup</name>
+                <interval>1 day</interval>
+            </schedule>
+            <schedule>
+                <name>restore</name>
+                <interval>2 days</interval>
+            </schedule>
+        </controller>
+        <controller>
+            <name>brain</name>
+            <schedule>
+                <name>try to take over the world</name>
+                <interval>1 day</interval>
+            </schedule>
+        </controller>
+    </responsedata>
+</autnresponse>

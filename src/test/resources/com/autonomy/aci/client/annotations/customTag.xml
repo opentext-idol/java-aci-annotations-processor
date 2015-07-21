@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<autnresponse xmlns:autn='http://schemas.autonomy.com/aci/'>
+    <action>QUERY</action>
+    <response>SUCCESS</response>
+    <responsedata>
+        <autn:numhits>6</autn:numhits>
+        <autn:hit>
+            <autn:reference>218348440483151873</autn:reference>
+            <autn:id>325428</autn:id>
+            <autn:section>0</autn:section>
+            <autn:weight>96.00</autn:weight>
+            <autn:database>Twitter</autn:database>
+            <autn:title>Correction: The Supreme Court backs all parts of President Obama’s health care law.</autn:title>
+            <autn:content>
+                <DOCUMENT>
+                    <DEVELOPER>
+                        <NAME>Alex</NAME>
+                    </DEVELOPER>
+                    <DEVELOPER>
+                        <NAME>Jin</NAME>
+                    </DEVELOPER>
+                    <DEVELOPER>
+                        <NAME>Brian</NAME>
+                    </DEVELOPER>
+                </DOCUMENT>
+            </autn:content>
+        </autn:hit>
+    </responsedata>
+</autnresponse>

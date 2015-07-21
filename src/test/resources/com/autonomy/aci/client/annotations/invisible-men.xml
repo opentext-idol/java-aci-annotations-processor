@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<autnresponse xmlns:autn='http://schemas.autonomy.com/aci/'>
+    <action>FOO</action>
+    <response>SUCCESS</response>
+    <responsedata>
+        <man>
+            <name>smith</name>
+            <visible>true</visible>
+        </man>
+        <man>
+            <name>jones</name>
+            <visible>false</visible>
+        </man>
+    </responsedata>
+</autnresponse>

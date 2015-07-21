@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<autnresponse xmlns:autn='http://schemas.autonomy.com/aci/'>
+    <action>GETSTATUSOVERVIEW</action>
+    <response>SUCCESS</response>
+    <responsedata>
+        <controller>
+            <uuid>e9e5bb00-5c1f-8030-a2de-005056bd7989</uuid>
+            <service>
+                <port>7777</port>
+                <name>CFS</name>
+                <type></type>
+                <labels></labels>
+                <state></state>
+                <monitor>
+                    <name>Add different messages</name>
+                    <description>Adds message containing timestamp</description>
+                    <scriptName>AddDifferentMessages.lua</scriptName>
+                    <errors>0</errors>
+                    <warnings>0</warnings>
+                    <otherReports>25938</otherReports>
+                    <currentStatus>
+                        <status type="Success" id="94d56713363e1118e38c873d41284b82" startTime="1361355609"
+                                endTime="1361365937" message="Task successfully completed"></status>
+                        <status type="time" id="88a8116d217ec93c6d00459d64dc07b0" startTime="1361365937"
+                                endTime="1361365937" message="1361365937"></status>
+                    </currentStatus>
+                </monitor>
+                <monitor>
+                    <name>Check getStatus</name>
+                    <description>Checks action=getStatus</description>
+                    <scriptName>CheckGetStatus.lua</scriptName>
+                    <errors>0</errors>
+                    <warnings>0</warnings>
+                    <otherReports>0</otherReports>
+                    <currentStatus>
+                        <status type="Success" id="dbb0310055f486dd21840aab5174e389" startTime="1361355610"
+                                endTime="1361365934" message="Task successfully completed"></status>
+                    </currentStatus>
+                </monitor>
+                <monitor>
+                    <name>Return zero</name>
+                    <description></description>
+                    <scriptName>ReturnZero.lua</scriptName>
+                    <errors>0</errors>
+                    <warnings>0</warnings>
+                    <otherReports>0</otherReports>
+                    <currentStatus>
+                        <status type="Success" id="4aea7ff948d6cdc25b711be949e1296c" startTime="1361355605"
+                                endTime="1361365939" message="Task successfully completed"></status>
+                    </currentStatus>
+                </monitor>
+            </service>
+            <service>
+                <port>9000</port>
+                <name>Content</name>
+                <type></type>
+                <labels></labels>
+                <state></state>
+                <monitor>
+                    <name>Add different messages</name>
+                    <description>Adds message containing timestamp</description>
+                    <scriptName>AddDifferentMessages.lua</scriptName>
+                    <errors>0</errors>
+                    <warnings>0</warnings>
+                    <otherReports>25938</otherReports>
+                    <currentStatus>
+                        <status type="Success" id="c55988e9d0c44ab59f80bf714573e3a9" startTime="1361355609"
+                                endTime="1361365937" message="Task successfully completed"></status>
+                        <status type="time" id="4f970a8be9f04785deaec602f3a8d119" startTime="1361365937"
+                                endTime="1361365937" message="1361365937"></status>
+                    </currentStatus>
+                </monitor>
+                <monitor>
+                    <name>Check getStatus</name>
+                    <description>Checks action=getStatus</description>
+                    <scriptName>CheckGetStatus.lua</scriptName>
+                    <errors>0</errors>
+                    <warnings>0</warnings>
+                    <otherReports>0</otherReports>
+                    <currentStatus>
+                        <status type="Success" id="ec2f3b61b1bf15ce18a7ed6420ec112f" startTime="1361355610"
+                                endTime="1361365934" message="Task successfully completed"></status>
+                    </currentStatus>
+                </monitor>
+                <monitor>
+                    <name>Return zero</name>
+                    <description></description>
+                    <scriptName>ReturnZero.lua</scriptName>
+                    <errors>0</errors>
+                    <warnings>0</warnings>
+                    <otherReports>0</otherReports>
+                    <currentStatus>
+                        <status type="Success" id="79dbc3feae48a58416f39dc8d5ebf203" startTime="1361355605"
+                                endTime="1361365939" message="Task successfully completed"></status>
+                    </currentStatus>
+                </monitor>
+            </service>
+        </controller>
+    </responsedata>
+</autnresponse>

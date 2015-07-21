@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  ~ Copyright 2015 Hewlett-Packard Development Company, L.P.
+  ~ Licensed under the MIT License (the "License"); you may not use this file except in compliance with the License.
+  -->
+
+<configuration>
+
+  <appender name="ConsoleAppender" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder>
+      <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{35} - %msg %n</pattern>
+    </encoder>
+  </appender>
+
+  <appender name="FileAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <file>./target/test-log.log</file>
+
+    <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+      <fileNamePattern>${log.file.name}.%d{yyyy-MM-dd}.log</fileNamePattern>  <!-- daily rollover -->
+      <maxHistory>10</maxHistory>                                             <!-- keep 10 days worth of history -->
+    </rollingPolicy>
+
+    <encoder>
+      <pattern>%d{HH:mm:ss.SSS} %-5level %logger{40} - %msg%n</pattern>
+    </encoder>
+  </appender>
+
+  <logger name="com.autonomy" level="debug" additivity="false">
+    <appender-ref ref="ConsoleAppender" />
+    <appender-ref ref="FileAppender" />
+  </logger>
+
+  <logger name="com.autonomy.aci" level="debug" additivity="false">
+    <appender-ref ref="ConsoleAppender" />
+    <appender-ref ref="FileAppender" />
+  </logger>
+
+  <root level="debug">
+    <appender-ref ref="ConsoleAppender" />
+    <appender-ref ref="FileAppender" />
+  </root>
+</configuration>

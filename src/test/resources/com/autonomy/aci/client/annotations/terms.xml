@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<autnresponse xmlns:autn='http://schemas.autonomy.com/aci/'>
+    <action>PROFILEREAD</action>
+    <response>SUCCESS</response>
+    <responsedata>
+        <autn:totalprofiles>4</autn:totalprofiles>
+        <autn:numprofiles>4</autn:numprofiles>
+        <autn:profile>
+            <autn:pid>241-p3</autn:pid>
+            <autn:parent>241</autn:parent>
+            <autn:parentusername>460</autn:parentusername>
+            <autn:namedarea>default</autn:namedarea>
+            <autn:score>150</autn:score>
+            <autn:term weight="33">20</autn:term>
+            <autn:term weight="274">ACCORD</autn:term>
+            <autn:term weight="356">BODI</autn:term>
+            <autn:term weight="308">BOWL</autn:term>
+            <autn:term weight="431">BOX</autn:term>
+            <autn:term weight="395">EASI</autn:term>
+            <autn:term weight="405">ENTERTAIN</autn:term>
+            <autn:term weight="409">ESTIM</autn:term>
+            <autn:term weight="325">FILM</autn:term>
+            <autn:term weight="340">FOOTBAL</autn:term>
+            <autn:term weight="347">HOLLYWOOD</autn:term>
+            <autn:term weight="325">LARG</autn:term>
+            <autn:term weight="361">LED</autn:term>
+            <autn:term weight="660">LIONSGAT</autn:term>
+            <autn:term weight="755">LOVESTRUCK</autn:term>
+            <autn:term weight="284">MILLION</autn:term>
+            <autn:term weight="245">OFFIC</autn:term>
+            <autn:term weight="274">OPEN</autn:term>
+            <autn:term weight="176">PG13</autn:term>
+            <autn:term weight="633">PUNT</autn:term>
+            <autn:term weight="447">STUDIO</autn:term>
+            <autn:term weight="479">SUMMIT</autn:term>
+            <autn:term weight="274">SUNDAI</autn:term>
+            <autn:term weight="308">SUPER</autn:term>
+            <autn:term weight="609">SWARM</autn:term>
+            <autn:term weight="419">WARM</autn:term>
+            <autn:term weight="383">WEEKEND</autn:term>
+            <autn:term weight="536">ZOMBI</autn:term>
+            <autn:numterms>28</autn:numterms>
+            <autn:created>1360086718</autn:created>
+        </autn:profile>
+        <autn:profile>
+            <autn:pid>241-p2</autn:pid>
+            <autn:parent>241</autn:parent>
+            <autn:parentusername>460</autn:parentusername>
+            <autn:namedarea>default</autn:namedarea>
+            <autn:score>114</autn:score>
+            <autn:term weight="146">02FEB13</autn:term>
+            <autn:term weight="412">BASH</autn:term>
+            <autn:term weight="237">BOWL</autn:term>
+            <autn:term weight="318">BROUGHT</autn:term>
+            <autn:term weight="211">DURE</autn:term>
+            <autn:term weight="175">FIRST</autn:term>
+            <autn:term weight="240">FIVE</autn:term>
+            <autn:term weight="317">JUSTIN</autn:term>
+            <autn:term weight="231">LIVE</autn:term>
+            <autn:term weight="221">NEAR</autn:term>
+            <autn:term weight="260">PERFORM</autn:term>
+            <autn:term weight="323">POP</autn:term>
+            <autn:term weight="497">PRESUP</autn:term>
+            <autn:term weight="219">SATURDAI</autn:term>
+            <autn:term weight="586">SEXYBACK</autn:term>
+            <autn:term weight="198">SHOW</autn:term>
+            <autn:term weight="198">STAR</autn:term>
+            <autn:term weight="384">TIMBERLAK</autn:term>
+            <autn:term weight="132">YEAR</autn:term>
+            <autn:numterms>19</autn:numterms>
+            <autn:created>1360086681</autn:created>
+        </autn:profile>
+        <autn:profile>
+            <autn:pid>241-p1</autn:pid>
+            <autn:parent>241</autn:parent>
+            <autn:parentusername>460</autn:parentusername>
+            <autn:namedarea>default</autn:namedarea>
+            <autn:score>199</autn:score>
+            <autn:term weight="1157">ADO</autn:term>
+            <autn:term weight="791">ADS</autn:term>
+            <autn:term weight="564">APPEAR</autn:term>
+            <autn:term weight="479">BEING</autn:term>
+            <autn:term weight="520">BOWL</autn:term>
+            <autn:term weight="497">CHARG</autn:term>
+            <autn:term weight="531">CLAIM</autn:term>
+            <autn:term weight="622">COMMERC</autn:term>
+            <autn:term weight="586">CRITIC</autn:term>
+            <autn:term weight="718">CULTUR</autn:term>
+            <autn:term weight="925">DISAGRE</autn:term>
+            <autn:term weight="629">DISCUSS</autn:term>
+            <autn:term weight="834">DRAWN</autn:term>
+            <autn:term weight="507">EVEN</autn:term>
+            <autn:term weight="622">FEATUR</autn:term>
+            <autn:term weight="1115">INSENSIT</autn:term>
+            <autn:term weight="499">MADE</autn:term>
+            <autn:term weight="544">MUCH</autn:term>
+            <autn:term weight="457">NIGHT</autn:term>
+            <autn:term weight="361">ON</autn:term>
+            <autn:term weight="856">RACIST</autn:term>
+            <autn:term weight="648">SPOT</autn:term>
+            <autn:term weight="462">SUNDAI</autn:term>
+            <autn:term weight="520">SUPER</autn:term>
+            <autn:term weight="570">THOSE</autn:term>
+            <autn:term weight="791">VIEWER</autn:term>
+            <autn:term weight="963">VOLKSWAGEN</autn:term>
+            <autn:numterms>27</autn:numterms>
+            <autn:created>1360086606</autn:created>
+        </autn:profile>
+        <autn:profile>
+            <autn:pid>241-p0</autn:pid>
+            <autn:parent>241</autn:parent>
+            <autn:parentusername>460</autn:parentusername>
+            <autn:namedarea>default</autn:namedarea>
+            <autn:score>11</autn:score>
+            <autn:term weight="160">AERIAL</autn:term>
+            <autn:term weight="125">AIRCRAFT</autn:term>
+            <autn:term weight="120">ARM</autn:term>
+            <autn:term weight="213">BOMBARD</autn:term>
+            <autn:term weight="219">BURKHARD</autn:term>
+            <autn:term weight="129">CAMP</autn:term>
+            <autn:term weight="172">COLONEL</autn:term>
+            <autn:term weight="171">CONVOI</autn:term>
+            <autn:term weight="121">DEFENT</autn:term>
+            <autn:term weight="187">DEPOT</autn:term>
+            <autn:term weight="117">EASTERN</autn:term>
+            <autn:term weight="136">EXTREMIST</autn:term>
+            <autn:term weight="144">FRANCOI</autn:term>
+            <autn:term weight="130">FRENCH</autn:term>
+            <autn:term weight="138">FUEL</autn:term>
+            <autn:term weight="137">HOLLAND</autn:term>
+            <autn:term weight="128">ISLAM</autn:term>
+            <autn:term weight="218">KIDAL</autn:term>
+            <autn:term weight="139">MALI</autn:term>
+            <autn:term weight="113">MILIT</autn:term>
+            <autn:term weight="126">MILITARI</autn:term>
+            <autn:term weight="121">MINISTRI</autn:term>
+            <autn:term weight="112">PARI</autn:term>
+            <autn:term weight="111">PLANE</autn:term>
+            <autn:term weight="114">SPOKESMAN</autn:term>
+            <autn:term weight="136">STRIKE</autn:term>
+            <autn:term weight="112">STRUCK</autn:term>
+            <autn:term weight="270">TESSALIT</autn:term>
+            <autn:term weight="185">THIERRI</autn:term>
+            <autn:term weight="109">TROOP</autn:term>
+            <autn:numterms>30</autn:numterms>
+            <autn:created>1360080682</autn:created>
+        </autn:profile>
+    </responsedata>
+</autnresponse>
