@@ -1,6 +1,6 @@
 # java-aci-annotations-processor
 
-Provides a processor factory for use with the HP Autonomy [java-aci-api](http://hpautonomy.github.io/java-aci-api), which 
+Provides a processor factory for use with the HP Autonomy [java-aci-api-ng](http://hpautonomy.github.io/java-aci-api-ng), which 
 creates processors which convert an ACI response to an instance of a Java class as configured by annotations on that class.
 This abstracts away processing of ACI XML and encourages type safety in consuming code.
 
