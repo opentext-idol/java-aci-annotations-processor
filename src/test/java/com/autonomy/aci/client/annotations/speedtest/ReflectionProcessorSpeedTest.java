@@ -11,6 +11,7 @@ import com.autonomy.aci.client.annotations.testobjects.tweets.Tweet;
 import com.autonomy.aci.client.services.StAXProcessor;
 import com.hp.autonomy.test.xml.XmlTestUtils;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -36,13 +37,13 @@ public class ReflectionProcessorSpeedTest {
     }
 
     @Test
-//    @Ignore
+    @Ignore
     public void speedTestLarge() throws XMLStreamException {
         speedTest("/com/autonomy/aci/client/annotations/tweetsLarge.xml");
     }
 
     @Test
-//    @Ignore
+    @Ignore
     public void speedTestLargePrintfields() throws XMLStreamException {
         speedTest("/com/autonomy/aci/client/annotations/tweetsLargePrintfields.xml");
     }
