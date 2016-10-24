@@ -12,9 +12,9 @@ import java.lang.annotation.Target;
 
 /**
  * Indicates that a method should be called with the result of an IDOL field. The method should take a single argument.
- * <p/>
+ * <p>
  * If the first argument has type {@code String} the method will be called with the value of the IDOL field.
- * <p/>
+ * <p>
  * If the first argument is a primitive type or boxed wrapper class the value of the IDOL field will be converted to
  * the correct type.
  * <ul>
@@ -23,10 +23,10 @@ import java.lang.annotation.Target;
  * <li> For numeric types, if the field value cannot be converted then 0 will be returned.  This includes overflow cases.
  * It is the client's responsibility to ensure the chosen numeric type is large enough to handle all possible values.
  * </ul>
- * <p/>
+ * <p>
  * If the first argument as a constructor that takes a single string then that constructor will be called with the value
  * of the IDOL field.
- * <p/>
+ * <p>
  * Note: if your class depends upon annotated methods in a non-public superclass, the annotations will not be found.  This
  * is a limitation of the Java Reflection libraries
  */

@@ -12,9 +12,9 @@ import java.lang.annotation.Target;
 
 /**
  * Designates the target method as the build method for a given {@link com.autonomy.aci.client.annotations.IdolBuilder IdolBuilder}.
- * <p/>
+ * <p>
  * This annotation has no effect if its parent class is not annotated with {@code IdolBuilder}.
- * <p/>
+ * <p>
  * The target method must take no arguments and return an object whose type is the same as the enclosing class.
  */
 @Retention(RetentionPolicy.RUNTIME)

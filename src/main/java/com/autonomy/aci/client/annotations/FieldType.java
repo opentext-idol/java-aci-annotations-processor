@@ -16,12 +16,12 @@ public enum FieldType {
     FIELD,
 
     /**
-     * <p/>
+     * <p>
      * Indicates that the value resolves to a path in an IDOL document. Intended to be used when XML has been indexed
      * into IDOL.
-     * <p/>
+     * <p>
      * Where a path is relative to is annotation dependent.
-     * <p/>
+     * <p>
      * If a path begins with {@literal //} then it is treated as a wildcard and any combination path ending with the
      * remainder of the given value will match
      */
