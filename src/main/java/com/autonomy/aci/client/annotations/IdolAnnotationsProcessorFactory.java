@@ -44,7 +44,7 @@ public interface IdolAnnotationsProcessorFactory {
     /**
      * Set the properties to use when a configured value is required via a {@code ResourceBundle} instance. Replaces existing configuration.
      * The new properties will apply to any new processors that are created but will not apply to previously existing ones.
-     * <p/>
+     * <p>
      * RENAMED in 0.9.2 to comply with JavaBeans specification
      * @param resourceBundle The ResourceBundle object to use for configuration
      */

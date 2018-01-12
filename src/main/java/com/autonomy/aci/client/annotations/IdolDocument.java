@@ -12,9 +12,9 @@ import java.lang.annotation.Target;
 
 /**
  * Optional annotation used to designate a class as having IDOL annotations.
- * <p/>
+ * <p>
  * Designates an IDOL field as the root field of the annotated class.
- * <p/>
+ * <p>
  * Note: if your class depends upon annotated methods in a non-public superclass, the annotations will not be found. This
  * is a limitation of the Java Reflection libraries.
  */

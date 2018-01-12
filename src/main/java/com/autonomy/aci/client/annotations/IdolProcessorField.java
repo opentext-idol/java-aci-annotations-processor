@@ -14,14 +14,14 @@ import java.lang.annotation.Target;
 
 /**
  * Indicates that when the given IDOL field is reached a {@code StAXProcessor} with the given class should be called.
- * <p/>
+ * <p>
  * The method should take a single argument.
- * <p/>
+ * <p>
  * If no class is specified then the processor that is used will be generated via
  * {@link com.autonomy.aci.client.annotations.IdolAnnotationsProcessorFactory#forClass}
  * for the type of the first argument of the method. In this case the type of the first argument of the method should be
  * annotated with IDOL processor annotations.
- * <p/>
+ * <p>
  * Note: if your class depends upon annotated methods in a non-public superclass, the annotations will not be found. This
  * is a limitation of the Java Reflection libraries.
  */

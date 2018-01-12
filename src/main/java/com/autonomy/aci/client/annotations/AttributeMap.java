@@ -26,7 +26,7 @@ class AttributeMap<T> {
 
     Map<String, Method> get(final T key) {
         final Map<String, Method> methodMap = map.get(key);
-        return methodMap != null ? methodMap : new HashMap<String, Method>();
+        return methodMap != null ? methodMap : new HashMap<>();
     }
 
 }
