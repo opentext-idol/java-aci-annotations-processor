@@ -19,7 +19,7 @@
 
     <groupId>com.hp.autonomy.aci.client</groupId>
     <artifactId>aci-annotations-processor</artifactId>
-    <version>1.1.0-SNAPSHOT</version>
+    <version>1.0.1</version>
 
     <name>HP Autonomy ACI Annotations Processor Factory</name>
     <description>Provides a processor factory for use with the HP ACI API.</description>
