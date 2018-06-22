@@ -37,7 +37,7 @@
     <custom>
         <fluidoSkin>
             <gitHub>
-                <projectId>hpautonomy/java-aci-annotations-processor</projectId>
+                <projectId>microfocus-idol/java-aci-annotations-processor</projectId>
                 <ribbonOrientation>right</ribbonOrientation>
                 <ribbonColor>gray</ribbonColor>
             </gitHub>

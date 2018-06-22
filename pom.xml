@@ -21,20 +21,20 @@
     <artifactId>aci-annotations-processor</artifactId>
     <version>1.0.1</version>
 
-    <name>HP Autonomy ACI Annotations Processor Factory</name>
+    <name>Micro Focus IDOL ACI Annotations Processor Factory</name>
     <description>Provides a processor factory for use with the HP ACI API.</description>
-    <url>https://github.com/hpautonomy/java-aci-annotations-processor</url>
+    <url>https://github.com/microfocus-idol/java-aci-annotations-processor</url>
     <inceptionYear>2015</inceptionYear>
 
     <scm>
-        <connection>scm:git:git@github.com:hpautonomy/java-aci-annotations-processor.git</connection>
-        <developerConnection>scm:git:git@github.com:hpautonomy/java-aci-annotations-processor.git</developerConnection>
-        <url>git@github.com:hpautonomy/java-aci-annotations-processor.git</url>
+        <connection>scm:git:git@github.com:microfocus-idol/java-aci-annotations-processor.git</connection>
+        <developerConnection>scm:git:git@github.com:microfocus-idol/java-aci-annotations-processor.git</developerConnection>
+        <url>git@github.com:microfocus-idol/java-aci-annotations-processor.git</url>
     </scm>
 
     <issueManagement>
         <system>GitHub</system>
-        <url>https://github.com/hpautonomy/java-aci-annotations-processor/issues</url>
+        <url>https://github.com/microfocus-idol/java-aci-annotations-processor/issues</url>
     </issueManagement>
 
     <developers>
