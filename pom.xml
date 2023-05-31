@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!--
-  ~ (c) Copyright 2020 Micro Focus or one of its affiliates.
-  ~ Licensed under the MIT License (the "License"); you may not use this file except in compliance with the License.
+  ~ Copyright 2020 Open Text.
+  ~
+  ~ Licensed under the MIT License (the "License"); you may not use this file
+  ~ except in compliance with the License.
+  ~
+  ~ The only warranties for products and services of Open Text and its affiliates
+  ~ and licensors ("Open Text") are as may be set forth in the express warranty
+  ~ statements accompanying such products and services. Nothing herein should be
+  ~ construed as constituting an additional warranty. Open Text shall not be
+  ~ liable for technical or editorial errors or omissions contained herein. The
+  ~ information contained herein is subject to change without notice.
   -->
 
 <project xmlns="http://maven.apache.org/POM/4.0.0"
@@ -23,18 +32,18 @@
 
     <name>OpenText IDOL ACI Annotations Processor Factory</name>
     <description>Provides a processor factory for use with the OpenText ACI API.</description>
-    <url>https://github.com/microfocus-idol/java-aci-annotations-processor</url>
+    <url>https://github.com/opentext-idol/java-aci-annotations-processor</url>
     <inceptionYear>2015</inceptionYear>
 
     <scm>
-        <connection>scm:git:git@github.com:microfocus-idol/java-aci-annotations-processor.git</connection>
-        <developerConnection>scm:git:git@github.com:microfocus-idol/java-aci-annotations-processor.git</developerConnection>
-        <url>git@github.com:microfocus-idol/java-aci-annotations-processor.git</url>
+        <connection>scm:git:git@github.com:opentext-idol/java-aci-annotations-processor.git</connection>
+        <developerConnection>scm:git:git@github.com:opentext-idol/java-aci-annotations-processor.git</developerConnection>
+        <url>git@github.com:opentext-idol/java-aci-annotations-processor.git</url>
     </scm>
 
     <issueManagement>
         <system>GitHub</system>
-        <url>https://github.com/microfocus-idol/java-aci-annotations-processor/issues</url>
+        <url>https://github.com/opentext-idol/java-aci-annotations-processor/issues</url>
     </issueManagement>
 
     <developers>

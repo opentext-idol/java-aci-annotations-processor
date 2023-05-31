@@ -1,6 +1,6 @@
 # java-aci-annotations-processor
 
-Provides a processor factory for use with the OpenText IDOL [java-aci-api-ng](http://microfocus-idol.github.io/java-aci-api-ng), which 
+Provides a processor factory for use with the OpenText IDOL [java-aci-api-ng](http://opentext-idol.github.io/java-aci-api-ng), which 
 creates processors which convert an ACI response to an instance of a Java class as configured by annotations on that class.
 This abstracts away processing of ACI XML and encourages type safety in consuming code.
 
@@ -48,6 +48,6 @@ Yes.
 
 ## License
 
-(c) Copyright 2015-2016 OpenText or one of its affiliates.
+Copyright 2015-2016 OpenText or one of its affiliates.
 
 Licensed under the MIT License (the "License"); you may not use this project except in compliance with the License.
