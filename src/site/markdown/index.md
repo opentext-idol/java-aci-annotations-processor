@@ -35,7 +35,7 @@ The processor factory can be used to create a list processor for this class:
 Then an AciService from the ACI API can be used to execute the query action and convert the response to a List of our
 Document type:
 
-    AciParameters parameters = new AciParameters("Query");
+    ActionParameters parameters = new ActionParameters("Query");
     parameters.add("text", "*");
     List<Document> documents = aciService.executeAction(parameters, processor);
 
