@@ -11,7 +11,7 @@ java-aci-annotations-processor is available from the central Maven repository.
     <dependency>
         <groupId>com.hp.autonomy.aci.client</groupId>
         <artifactId>aci-annotations-processor</artifactId>
-        <version>1.2.0-SNAPSHOT</version>
+        <version>2.0.0</version>
     </dependency>
 
 ## License
