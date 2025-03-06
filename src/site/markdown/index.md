@@ -7,12 +7,6 @@ This abstracts away processing of ACI XML and encourages type safety in consumin
 ## Usage
 java-aci-annotations-processor is available from the central Maven repository.
 
-    <dependency>
-        <groupId>com.hp.autonomy.aci.client</groupId>
-        <artifactId>aci-annotations-processor</artifactId>
-        <version>2.1.0-SNAPSHOT</version>
-    </dependency>
-
 The IdolAnnotationsProcessorFactory creates instances of the ACI API's Processor class for given Java class representations
 of ACI responses. The mapping from response XML to the Java Object is configured by annotations on the class. For example,
 the following Document class can be used to read the response from the content component's Query action. 
