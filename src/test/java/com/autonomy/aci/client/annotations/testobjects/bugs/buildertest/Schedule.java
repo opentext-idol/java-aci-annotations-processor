@@ -18,8 +18,8 @@ import com.autonomy.aci.client.annotations.IdolBuilder;
 import com.autonomy.aci.client.annotations.IdolBuilderBuild;
 import com.autonomy.aci.client.annotations.IdolDocument;
 import com.autonomy.aci.client.annotations.IdolField;
-import org.apache.commons.lang.builder.EqualsBuilder;
-import org.apache.commons.lang.builder.HashCodeBuilder;
+import org.apache.commons.lang3.builder.EqualsBuilder;
+import org.apache.commons.lang3.builder.HashCodeBuilder;
 
 @IdolDocument("schedule")
 public class Schedule {

@@ -71,12 +71,12 @@
         <dependency>
             <groupId>com.hp.autonomy.aci.client</groupId>
             <artifactId>aci-api</artifactId>
-            <version>25.2.0</version>
+            <version>25.3.0</version>
         </dependency>
         <dependency>
-            <groupId>commons-lang</groupId>
-            <artifactId>commons-lang</artifactId>
-            <version>2.6</version>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.14.0</version>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
