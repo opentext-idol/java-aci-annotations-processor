@@ -8,12 +8,6 @@ Information can be found on the project homepage [here](http://opentext-idol.git
 ## Usage
 java-aci-annotations-processor is available from the central Maven repository.
 
-    <dependency>
-        <groupId>com.hp.autonomy.aci.client</groupId>
-        <artifactId>aci-annotations-processor</artifactId>
-        <version>2.1.0-SNAPSHOT</version>
-    </dependency>
-
 ## License
 
 Copyright 2015-2020 OpenText or one of its affiliates.
